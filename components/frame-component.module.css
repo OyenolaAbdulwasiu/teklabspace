@@ -1,0 +1,345 @@
+.frameChild {
+  height: 344px;
+  width: 1097px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorchid);
+  border: 5px solid var(--color-fuchsia);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.trustedBy {
+  margin: 0;
+  height: 65px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.trustedByGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 369px;
+  max-width: 100%;
+}
+.usefulLinksFrameChild {
+  align-self: stretch;
+  flex: 1;
+  z-index: 1;
+}
+.usefulLinksFrameItem {
+  align-self: stretch;
+  height: 96px;
+  z-index: 1;
+}
+.usefulLinksFrame {
+  height: 204px;
+  width: 402px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 402px;
+  max-width: 100%;
+}
+.cyberEvolutionHub,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1097px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorchid);
+  border: 5px solid var(--color-fuchsia);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-49xl) var(--padding-69xl) var(--padding-48xl)
+    var(--padding-68xl);
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.cyberEvolutionHub {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--white);
+}
+.safeHouse,
+.usefulLinks {
+  position: relative;
+  padding-right: var(--padding-xl);
+  z-index: 3;
+}
+.usefulLinks {
+  margin: 0;
+  width: 205px;
+  height: 43px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+}
+.safeHouse {
+  width: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cyberEvolutionSectionInstan,
+.cybercriminalActivitiesInsta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cyberEvolutionSectionInstan {
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.cybercriminalActivitiesInsta {
+  gap: var(--gap-2xl);
+}
+.teklabspace {
+  margin: 0;
+  height: 43px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+}
+.legalInformation,
+.teklabspace {
+  position: relative;
+  z-index: 3;
+}
+.cyberCriminalsAreEvolvingIParent,
+.groupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cyberCriminalsAreEvolvingIParent {
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.groupContainer {
+  gap: var(--gap-9xl);
+}
+.contactUs {
+  margin: 0;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.cyberEvolutionSection,
+.tEKLABSPACEText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.tEKLABSPACEText {
+  justify-content: flex-start;
+  gap: var(--gap-43xl);
+}
+.cyberEvolutionSection {
+  align-self: stretch;
+  justify-content: flex-end;
+  min-height: 465px;
+  font-size: var(--font-size-13xl);
+}
+.contactUsGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(231, 16, 255, 0.66),
+    rgba(231, 16, 255, 0) 41.82%
+  );
+  filter: blur(219px);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.frameChild1,
+.frameInner,
+.frameItem,
+.groupIcon,
+.lineIcon {
+  position: absolute;
+  top: 836px;
+  left: 18px;
+  width: 43.3px;
+  height: 43.3px;
+  z-index: 3;
+}
+.frameChild1,
+.frameInner,
+.groupIcon,
+.lineIcon {
+  left: 76px;
+}
+.frameChild1,
+.groupIcon,
+.lineIcon {
+  left: 192px;
+}
+.frameChild1,
+.lineIcon {
+  left: 134px;
+}
+.lineIcon {
+  top: 982px;
+  left: 40px;
+  width: 1142px;
+  height: 11.5px;
+}
+.contactUsGroupParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.teklabspace1 {
+  font-weight: 900;
+  color: var(--color-fuchsia);
+}
+.allRightReservedContainer {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 3;
+}
+.c,
+.parentCyber {
+  position: relative;
+}
+.parentCyber {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid var(--light-black);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.c {
+  font-weight: 500;
+  z-index: 4;
+  margin-top: -16px;
+}
+.ellipseShape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -219px;
+  font-size: var(--font-size-2xs);
+  color: var(--light-black);
+}
+.allRightsFrame,
+.frameRight,
+.teklabspacebranding {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameRight {
+  width: 403px;
+  align-items: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.allRightsFrame,
+.teklabspacebranding {
+  width: 437px;
+  align-items: flex-start;
+  font-size: var(--font-size-xl);
+}
+.teklabspacebranding {
+  position: absolute;
+  top: 0;
+  left: 114px;
+  width: 1214px;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-60xl) 0 var(--padding-149xl) var(--padding-42xl);
+  box-sizing: border-box;
+  gap: var(--gap-47xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .trustedBy {
+    font-size: var(--font-size-19xl);
+  }
+  .trustedByGroup,
+  .usefulLinksFrame {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .contactUs,
+  .teklabspace,
+  .usefulLinks {
+    font-size: var(--font-size-7xl);
+  }
+  .tEKLABSPACEText {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .trustedByGroup,
+  .usefulLinksFrame {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trustedBy {
+    font-size: var(--font-size-10xl);
+  }
+  .usefulLinks {
+    font-size: var(--font-size-lgi);
+  }
+  .safeHouse {
+    font-size: var(--font-size-base);
+  }
+  .teklabspace {
+    font-size: var(--font-size-lgi);
+  }
+  .legalInformation {
+    font-size: var(--font-size-base);
+  }
+  .contactUs {
+    font-size: var(--font-size-lgi);
+  }
+  .allRightReservedContainer {
+    font-size: var(--font-size-base);
+  }
+}

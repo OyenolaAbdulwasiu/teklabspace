@@ -1,0 +1,76 @@
+.groupcontainerChild {
+  height: 770px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--sub-text);
+  display: none;
+  max-width: 100%;
+}
+.image1Icon {
+  width: 150px;
+  height: 102px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.cybercriminalsactivitiesChild {
+  width: 43.3px;
+  height: 43.3px;
+  position: relative;
+  z-index: 3;
+}
+.cybercriminalsactivities {
+  width: 400px;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+}
+.cybercriminalsactivities,
+.frametitlecybercriminalsevolvi,
+.groupcontainer,
+.groupvectoremailaddress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupvectoremailaddress {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+}
+.frametitlecybercriminalsevolvi,
+.groupcontainer {
+  width: 220px;
+  padding: var(--padding-52xl) 0 0;
+  box-sizing: border-box;
+}
+.groupcontainer {
+  position: absolute;
+  top: 312px;
+  left: 0;
+  background-color: var(--sub-text);
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-153xl) var(--padding-45xl) var(--padding-184xl)
+    var(--padding-55xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+@media screen and (max-width: 1050px) {
+  .groupcontainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .groupcontainer {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cybercriminalsactivities {
+    gap: var(--gap-19xl);
+  }
+}

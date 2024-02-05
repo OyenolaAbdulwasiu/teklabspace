@@ -1,0 +1,29 @@
+.advancementInThe,
+.cyberCriminalsAre,
+.harnessThePower {
+  margin: 0;
+}
+.cyberCriminalsAreContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.cyberCriminalsAreEvolvingI {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 450px) {
+  .cyberCriminalsAreContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

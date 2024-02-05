@@ -1,0 +1,29 @@
+.trustedBy1 {
+  margin: 0;
+  position: absolute;
+  top: -32px;
+  left: -31px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.trustedBy {
+  height: 49px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .trustedBy1 {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .trustedBy1 {
+    font-size: var(--font-size-10xl);
+  }
+}

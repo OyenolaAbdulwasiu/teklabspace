@@ -1,0 +1,214 @@
+.frameChild {
+  height: 670px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-fuchsia);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.maskGroupIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.trustedByWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.whenWeWere {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.evolutionFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blogFrameIcon,
+.blogFrameIcon1,
+.blogFrameIcon2,
+.blogFrameIcon3,
+.blogFrameIcon4 {
+  height: 40.1px;
+  width: 40.9px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  min-height: 40px;
+  z-index: 2;
+}
+.blogFrameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.bayo {
+  margin: 0;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.bayoText,
+.frameWithLines,
+.trustGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bayoText {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+}
+.frameWithLines,
+.trustGroup {
+  flex-direction: column;
+}
+.frameWithLines {
+  align-self: stretch;
+  gap: var(--gap-8xs);
+}
+.trustGroup {
+  width: 253px;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+}
+.mainGroupChild {
+  height: 10px;
+  width: 92px;
+  position: relative;
+  z-index: 2;
+}
+.frameParent,
+.frameWrapper,
+.mainGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainGroup {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+}
+.frameWrapper {
+  flex: 1;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  min-width: 412px;
+}
+.frameItem {
+  width: 574.3px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  z-index: 2;
+}
+.rectangleParent,
+.textLegalInformationInner {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-fuchsia);
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-66xl) var(--padding-51xl) var(--padding-25xl)
+    var(--padding-47xl);
+  position: relative;
+  gap: var(--gap-77xl);
+}
+.textLegalInformationInner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--sub-text);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .frameItem {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-77xl);
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .bayo {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .trustedByWrapper {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-29xl);
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .rectangleParent {
+    gap: var(--gap-77xl);
+    padding-top: var(--padding-320xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bayo,
+  .whenWeWere {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,55 @@
+.frameChild {
+  width: 382px;
+  height: 531px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gainsboro-200);
+  display: none;
+  max-width: 100%;
+}
+.password1Icon {
+  width: 68px;
+  height: 68px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.andPenetrationTesting,
+.vulnerabilityAssessment {
+  margin: 0;
+}
+.vulnerabilityAssessmentAndContainer {
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-9xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 286px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-top: var(--padding-320xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vulnerabilityAssessmentAndContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

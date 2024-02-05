@@ -1,0 +1,320 @@
+.frameChild,
+.home {
+  position: relative;
+  z-index: 1;
+}
+.home {
+  height: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameChild {
+  width: 28px;
+  height: 4px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-fuchsia);
+}
+.homeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  color: var(--color-black);
+}
+.company,
+.hackCollage,
+.researcher {
+  position: relative;
+  z-index: 1;
+}
+.researcher {
+  height: 25px;
+  display: inline-block;
+}
+.hackCollage {
+  white-space: nowrap;
+}
+.trustedby {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+}
+.login {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.cyberevolves {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+  color: var(--color-black);
+}
+.bayo,
+.cybercrims {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.cybercrims {
+  width: 948px;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bayo {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--unactive);
+  font-family: var(--font-poppins);
+}
+.safehouseIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem,
+.image1Icon,
+.image2Icon {
+  position: absolute;
+  top: 987px;
+  left: 269px;
+  width: 905px;
+  height: 66px;
+  z-index: 1;
+}
+.image1Icon,
+.image2Icon {
+  top: 50px;
+  left: 72px;
+  width: 55px;
+  height: 50px;
+  object-fit: cover;
+}
+.image2Icon {
+  top: 64px;
+  left: 127px;
+  width: 99px;
+  height: 21px;
+  z-index: 2;
+}
+.safehouseParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.africasFirstEthical {
+  margin: 0;
+}
+.crowdsourcedSecurityPlatform {
+  margin: 0;
+  color: var(--color-darkgray);
+}
+.africasFirstEthicalContainer {
+  margin: 0 !important;
+  width: 920px;
+  height: 258px;
+  position: absolute;
+  top: -46px;
+  left: 163px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frameLogoChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.4px;
+  bottom: -0.1px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameLogo {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-227xl) var(--padding-28xl) var(--padding-21xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.frameLogo,
+.textGroupTitle,
+.trustedByWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.trustedByWrapper {
+  width: 211px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+}
+.textGroupTitle {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-97xl);
+  min-height: 881px;
+  max-width: 100%;
+}
+.ourServices {
+  margin: 0;
+  height: 65px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.star,
+.textCyberCrimesAreEvolving {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.textCyberCrimesAreEvolving {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xl) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+}
+.star {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-19xl) var(--padding-51xl) var(--padding-54xl)
+    var(--padding-80xl);
+  position: relative;
+  gap: var(--gap-117xl);
+}
+.star,
+.starParent,
+.textblock {
+  display: flex;
+  max-width: 100%;
+}
+.starParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.textblock {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 1843px;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .star {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .africasFirstEthicalContainer {
+    font-size: var(--font-size-32xl);
+  }
+  .frameLogo {
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .ourServices {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .trustedby {
+    display: none;
+    gap: var(--gap-22xl);
+  }
+  .cybercrims {
+    width: 468px;
+  }
+  .frameLogo {
+    padding-top: var(--padding-141xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .textGroupTitle {
+    gap: var(--gap-97xl);
+  }
+  .star {
+    gap: var(--gap-117xl);
+    padding: var(--padding-xl) var(--padding-16xl) var(--padding-12xl)
+      var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cyberevolves {
+    gap: var(--gap-30xl);
+  }
+  .africasFirstEthicalContainer {
+    font-size: var(--font-size-19xl);
+  }
+  .frameLogo {
+    gap: var(--gap-15xl);
+  }
+  .textGroupTitle {
+    gap: var(--gap-97xl);
+  }
+  .ourServices {
+    font-size: var(--font-size-10xl);
+  }
+  .star {
+    gap: var(--gap-117xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
